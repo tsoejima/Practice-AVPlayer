@@ -13,6 +13,7 @@
 		DFEDC949250B8CE400E41A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEDC947250B8CE400E41A0C /* Main.storyboard */; };
 		DFEDC94B250B8CE600E41A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEDC94A250B8CE600E41A0C /* Assets.xcassets */; };
 		DFEDC94E250B8CE600E41A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEDC94C250B8CE600E41A0C /* LaunchScreen.storyboard */; };
+		DFEDC959250B937800E41A0C /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEDC958250B937800E41A0C /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		DFEDC94A250B8CE600E41A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFEDC94D250B8CE600E41A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFEDC94F250B8CE600E41A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEDC955250B917700E41A0C /* Fishing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fishing.mp4; sourceTree = "<group>"; };
+		DFEDC958250B937800E41A0C /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +64,10 @@
 				DFEDC945250B8CE400E41A0C /* ViewController.swift */,
 				DFEDC947250B8CE400E41A0C /* Main.storyboard */,
 				DFEDC94A250B8CE600E41A0C /* Assets.xcassets */,
+				DFEDC955250B917700E41A0C /* Fishing.mp4 */,
 				DFEDC94C250B8CE600E41A0C /* LaunchScreen.storyboard */,
 				DFEDC94F250B8CE600E41A0C /* Info.plist */,
+				DFEDC958250B937800E41A0C /* PlayerView.swift */,
 			);
 			path = "Practice-AVPlayer";
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 				DFEDC946250B8CE400E41A0C /* ViewController.swift in Sources */,
 				DFEDC942250B8CE400E41A0C /* AppDelegate.swift in Sources */,
 				DFEDC944250B8CE400E41A0C /* SceneDelegate.swift in Sources */,
+				DFEDC959250B937800E41A0C /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
